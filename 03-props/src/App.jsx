@@ -2,8 +2,12 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>
-      <h1>hello</h1>
+    <div className='parent'>
+        <div className='card'>
+          <h1>Ankan Nandy</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button>view profile</button>
+        </div>
     </div>
   )
 }
