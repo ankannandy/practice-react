@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    background-color: #333;
 }
 .parent{
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .card{
     width: 300px;
@@ -15,5 +17,14 @@
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    background-color: #333;
+}
+.card button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(12, 77, 161);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 16px;
 }
