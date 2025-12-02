@@ -20,6 +20,9 @@ html, body {
     background-color: #ffffff;
     border-radius: 20px;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .card .top{
     display: flex;
@@ -43,4 +46,11 @@ html, body {
     gap: 3px;
     background-color: transparent;
     color: #dadada;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #b1b1b1;
+    padding-top: 10px;
 }
