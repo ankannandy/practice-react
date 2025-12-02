@@ -10,7 +10,7 @@ const App = () => {
           <button>Save <Bookmark /></button>
         </div>
         <div className="center">
-          <h3>amazon <span>5 Days ago</span></h3>
+          <h3>Amazon <span>5 Days ago</span></h3>
           <h2>Senior UI/UX Designer</h2>
           <div>
             <h4>Part Time</h4>

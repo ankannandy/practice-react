@@ -47,6 +47,18 @@ html, body {
     background-color: transparent;
     color: #dadada;
 }
+.center h3{
+    font-size: 18px;
+}
+.center h3 span{
+    font-size: 10px;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+.center h2{
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+}
 .bottom{
     display: flex;
     justify-content: space-between;
